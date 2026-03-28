@@ -10,5 +10,6 @@ var (
 )
 
 func wrapLoggerError(err error) error {
-	return fmt.Errorf("logger: %w", err)
+	const prefix = "logger"
+	return fmt.Errorf("%s: %w", prefix, err)
 }
