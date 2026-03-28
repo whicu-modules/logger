@@ -1,3 +1,9 @@
+## v0.2.1 (2026-03-28)
+
+### Fix
+
+- **go-version**: changed go version from 1.26.0 to 1.25.0
+
 ## v0.2.0 (2026-03-28)
 
 ### Feat
