@@ -1,3 +1,9 @@
+## v0.2.2 (2026-03-28)
+
+### Fix
+
+- **module**: replaced Provide to Decorate for NewSubLogger
+
 ## v0.2.1 (2026-03-28)
 
 ### Fix
