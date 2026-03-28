@@ -23,7 +23,7 @@ func NewSubLoggerModule(moduleName, group string) fx.Option {
 }
 
 func NewSubLogger(group string) fx.Option {
-	return fx.Provide(
+	return fx.Decorate(
 		func(logger *slog.Logger) *slog.Logger {
 			return GetSubLogger(logger, group)
 		},
