@@ -1,6 +1,6 @@
 module github.com/whicu-modules/logger
 
-go 1.26.0
+go 1.25.0
 
 require (
 	github.com/lmittmann/tint v1.1.3
